@@ -1,0 +1,2423 @@
+{
+  "folders": {
+    "BASE VEHICLE DESIGN PROJECT": {
+      "id": "183e8dde7890aaf8ef430925",
+      "files": [
+        {
+          "file": "0222-107.ipt",
+          "status": "ok",
+          "doc_id": "c7102b2e8303d2a25b1444d0"
+        },
+        {
+          "file": "0222-108-emergency.ipt",
+          "status": "ok",
+          "doc_id": "9460abf750174d9901a6c145"
+        },
+        {
+          "file": "0222-108.ipt",
+          "status": "ok",
+          "doc_id": "584dd10160e8ee970646e038"
+        },
+        {
+          "file": "0222-110.ipt",
+          "status": "ok",
+          "doc_id": "50e03eab444f16dfb3e1db27"
+        },
+        {
+          "file": "0222-113-2.ipt",
+          "status": "ok",
+          "doc_id": "13904af03fb77d8c4b6cf483"
+        },
+        {
+          "file": "0222-113.ipt",
+          "status": "ok",
+          "doc_id": "309fb23ea8fb102f6f8d9444"
+        },
+        {
+          "file": "1199N323.ipt",
+          "status": "ok",
+          "doc_id": "151a96657e4a4c6728f488a8"
+        },
+        {
+          "file": "1_4-20 UNC x 0.625.ipt",
+          "status": "ok",
+          "doc_id": "0d942f031eac9e79c62d2f80"
+        },
+        {
+          "file": "22x10x8.iam",
+          "status": "ok",
+          "doc_id": "155ab3d41b1e8898972f9d8c"
+        },
+        {
+          "file": "22x10x8.ipt",
+          "status": "ok",
+          "doc_id": "2df16a197c4a61f099c195b6"
+        },
+        {
+          "file": "251105 Motor_Drive.ipt",
+          "status": "ok",
+          "doc_id": "75c0853916bbc90b58a6d54f"
+        },
+        {
+          "file": "30205.ipt",
+          "status": "ok",
+          "doc_id": "97a836cf3b59742008513f11"
+        },
+        {
+          "file": "3_8-16 x 5_8 Flange Bolt.ipt",
+          "status": "ok",
+          "doc_id": "b5238b8279ecfb66db70702f"
+        },
+        {
+          "file": "4991T961.ipt",
+          "status": "ok",
+          "doc_id": "0157539733208ff2bfedf2e0"
+        },
+        {
+          "file": "599044.ipt",
+          "status": "ok",
+          "doc_id": "f8819fdc35a770485b534e9c"
+        },
+        {
+          "file": "90128A277.ipt",
+          "status": "ok",
+          "doc_id": "cbb0838b0914ed79fb898ce6"
+        },
+        {
+          "file": "91259A177.ipt",
+          "status": "ok",
+          "doc_id": "521b92f9f8a6184d7ae70c12"
+        },
+        {
+          "file": "91290A446.ipt",
+          "status": "ok",
+          "doc_id": "deecc4f996e392b20ce95d5c"
+        },
+        {
+          "file": "92979A336.ipt",
+          "status": "ok",
+          "doc_id": "b1ad814b98692c2dcf445a58"
+        },
+        {
+          "file": "93560A112.ipt",
+          "status": "ok",
+          "doc_id": "9602f347686bf8f958dd1e5c"
+        },
+        {
+          "file": "94945A213.ipt",
+          "status": "ok",
+          "doc_id": "db2a2f6bc9b29f4797661427"
+        },
+        {
+          "file": "96717A416.ipt",
+          "status": "ok",
+          "doc_id": "09577b5d93e2915c98b51b71"
+        },
+        {
+          "file": "97260A109.ipt",
+          "status": "ok",
+          "doc_id": "c7457b4fb3cc317650912854"
+        },
+        {
+          "file": "BASE VEHICLE TEMPLATE 2.ipt",
+          "status": "ok",
+          "doc_id": "82b4e3622c32a72b554c430e"
+        },
+        {
+          "file": "BV-222-101.ipt",
+          "status": "ok",
+          "doc_id": "6c7a137d93f39f6fa242fe97"
+        },
+        {
+          "file": "BV-222-102.ipt",
+          "status": "ok",
+          "doc_id": "72f490489fcb2d739e9b7685"
+        },
+        {
+          "file": "BV-222-103.ipt",
+          "status": "ok",
+          "doc_id": "8e13030fc70888b25f9a8426"
+        },
+        {
+          "file": "BV-222-104.ipt",
+          "status": "ok",
+          "doc_id": "e194d7082a2eb12beb976339"
+        },
+        {
+          "file": "BV-222-105.ipt",
+          "status": "ok",
+          "doc_id": "a1da307028357d66c8570ed9"
+        },
+        {
+          "file": "BV-222-106.ipt",
+          "status": "ok",
+          "doc_id": "9f5d1896b22d77cd13f07f25"
+        },
+        {
+          "file": "BV-222-107.ipt",
+          "status": "ok",
+          "doc_id": "b6ae8a83ae57af7f1e32fd0a"
+        },
+        {
+          "file": "BV-222-108.ipt",
+          "status": "ok",
+          "doc_id": "d40e60a7b9f89dcbc0e0d4a7"
+        },
+        {
+          "file": "BV-222-109.ipt",
+          "status": "ok",
+          "doc_id": "735adc71f62e67b71fa02940"
+        },
+        {
+          "file": "BV-222-110.ipt",
+          "status": "ok",
+          "doc_id": "22beefb957f2788c8362469d"
+        },
+        {
+          "file": "BV-222-111.ipt",
+          "status": "ok",
+          "doc_id": "90d29da8fb3b354f110f481f"
+        },
+        {
+          "file": "BV-222-112.ipt",
+          "status": "ok",
+          "doc_id": "e1b6bde556de9284063acf47"
+        },
+        {
+          "file": "BV-222-116.ipt",
+          "status": "ok",
+          "doc_id": "bb4314d0a01c627dbffe65fb"
+        },
+        {
+          "file": "BV-222-117.ipt",
+          "status": "ok",
+          "doc_id": "1cec419b1cc582066b5b5505"
+        },
+        {
+          "file": "BV-222-118.ipt",
+          "status": "ok",
+          "doc_id": "1bbc74ea69b0fc3209fc73db"
+        },
+        {
+          "file": "BV-222-119.ipt",
+          "status": "ok",
+          "doc_id": "dfa12fdd72d87ba3ba2db849"
+        },
+        {
+          "file": "BV-222-120.ipt",
+          "status": "ok",
+          "doc_id": "35f8ba6675dcb3462002b3e0"
+        },
+        {
+          "file": "BV-222-121.ipt",
+          "status": "ok",
+          "doc_id": "88c09b1e74b1e8e93a32ad1f"
+        },
+        {
+          "file": "0222-107.stp",
+          "status": "ok",
+          "doc_id": "2f72fecd19900d7a97cbf3b9"
+        },
+        {
+          "file": "0222-113-2.stp",
+          "status": "ok",
+          "doc_id": "e2706fdcdfc851287485786c"
+        },
+        {
+          "file": "0222-113.stp",
+          "status": "ok",
+          "doc_id": "bf08e641da1966864d4c3fe3"
+        },
+        {
+          "file": "1199N323.stp",
+          "status": "ok",
+          "doc_id": "13f06d8009b0b8ee3cb4e0ae"
+        },
+        {
+          "file": "1_4-20 UNC x 0.625.stp",
+          "status": "ok",
+          "doc_id": "c001b72ee1e9b05d76772042"
+        },
+        {
+          "file": "22x10x8.stp",
+          "status": "ok",
+          "doc_id": "c60d1ed6e1a2b64faf2bdf38"
+        },
+        {
+          "file": "251105 Motor_Drive.stp",
+          "status": "ok",
+          "doc_id": "a2cdbe4c131c493c3aa66f03"
+        },
+        {
+          "file": "30205.stp",
+          "status": "ok",
+          "doc_id": "acaf1c03af4ef89237f7426b"
+        },
+        {
+          "file": "3_8-16 x 5_8 Flange Bolt.stp",
+          "status": "ok",
+          "doc_id": "74227ab669a88329c4f05c83"
+        },
+        {
+          "file": "4991T961.stp",
+          "status": "ok",
+          "doc_id": "6e865c86a21e47948af2c7ca"
+        },
+        {
+          "file": "90128A277.stp",
+          "status": "ok",
+          "doc_id": "9965522bfb94cf1145962178"
+        },
+        {
+          "file": "91259A177.stp",
+          "status": "ok",
+          "doc_id": "2877d447ab2ca3bc34eaf916"
+        },
+        {
+          "file": "91290A446.stp",
+          "status": "ok",
+          "doc_id": "4e85804a2e59b5ac66f69435"
+        },
+        {
+          "file": "93560A112.stp",
+          "status": "ok",
+          "doc_id": "ea4132e9c5947b45b397a627"
+        },
+        {
+          "file": "94945A213.stp",
+          "status": "ok",
+          "doc_id": "95688446f15019a781b02d92"
+        },
+        {
+          "file": "96717A416.stp",
+          "status": "ok",
+          "doc_id": "4c853d4289df5d6dacf59b33"
+        },
+        {
+          "file": "97260A109.stp",
+          "status": "ok",
+          "doc_id": "e7c183778ea29cb9b6c1309e"
+        },
+        {
+          "file": "BV-222-116.stp",
+          "status": "ok",
+          "doc_id": "dd8d77274e070ddc13809bec"
+        },
+        {
+          "file": "BV-222-119.stp",
+          "status": "ok",
+          "doc_id": "8f5c07a5f7a1ecc132d066ab"
+        },
+        {
+          "file": "BV-222-120.stp",
+          "status": "ok",
+          "doc_id": "adaec41830fd4204df278a59"
+        },
+        {
+          "file": "BV-ASM-222-100.stp",
+          "status": "ok",
+          "doc_id": "3d1c7c08ce9a15389d2863f8"
+        },
+        {
+          "file": "BV-ASM-222-104.stp",
+          "status": "ok",
+          "doc_id": "a1c5355820c958f51ee83033"
+        },
+        {
+          "file": "BV-ASM-222-105.stp",
+          "status": "ok",
+          "doc_id": "07b99bde487221a4f94d0b44"
+        },
+        {
+          "file": "BV-ASM-222-106.stp",
+          "status": "ok",
+          "doc_id": "ae058321f8e365fc5973aada"
+        },
+        {
+          "file": "M12-1.50.stp",
+          "status": "ok",
+          "doc_id": "d150e596ed4b688f308d957e"
+        },
+        {
+          "file": "BV-ASM-222-100-ORIGINAL.iam",
+          "status": "ok",
+          "doc_id": "355db888ee381d8e4195dafa"
+        },
+        {
+          "file": "BV-ASM-222-100.iam",
+          "status": "ok",
+          "doc_id": "28805706bb3fcff004206b9d"
+        },
+        {
+          "file": "BV-ASM-222-102.iam",
+          "status": "ok",
+          "doc_id": "ea33d9e31069ca7eb128be93"
+        },
+        {
+          "file": "BV-ASM-222-103.iam",
+          "status": "ok",
+          "doc_id": "0fc035fadaa713918325e296"
+        },
+        {
+          "file": "BV-ASM-222-104.iam",
+          "status": "ok",
+          "doc_id": "7f0233dc79088d0d4a22b222"
+        },
+        {
+          "file": "BV-ASM-222-105.iam",
+          "status": "ok",
+          "doc_id": "27612ff935f0bf0c0f73fbba"
+        },
+        {
+          "file": "BV-ASM-222-106.iam",
+          "status": "ok",
+          "doc_id": "716efd32c3e4e8e1705c6bba"
+        },
+        {
+          "file": "M12-1.50.ipt",
+          "status": "ok",
+          "doc_id": "b0ca5dc3c777f4ae0a6acd05"
+        },
+        {
+          "file": "0222-107.0009.ipt",
+          "status": "ok",
+          "doc_id": "0a32977f1291710157835061"
+        },
+        {
+          "file": "0222-108-emergency.0001.ipt",
+          "status": "ok",
+          "doc_id": "0675bf3550743d3bbb743cd3"
+        },
+        {
+          "file": "0222-108.0007.ipt",
+          "status": "ok",
+          "doc_id": "3005f795aeeece5b12fbe0c7"
+        },
+        {
+          "file": "0222-110.0009.ipt",
+          "status": "ok",
+          "doc_id": "63037f76854c5e0d094b8dcc"
+        },
+        {
+          "file": "0222-113-2.0008.ipt",
+          "status": "ok",
+          "doc_id": "992a31f0c8272ce56608f315"
+        },
+        {
+          "file": "0222-113.0012.ipt",
+          "status": "ok",
+          "doc_id": "c473054cdf6bf3a8eb52c890"
+        },
+        {
+          "file": "1199N323.0007.ipt",
+          "status": "ok",
+          "doc_id": "bf377b0917b4db374783a2b6"
+        },
+        {
+          "file": "1_4-20 UNC x 0.625.0005.ipt",
+          "status": "ok",
+          "doc_id": "a4bc95bc09e01b274ac264b1"
+        },
+        {
+          "file": "22x10x8.0002.iam",
+          "status": "ok",
+          "doc_id": "19df05fe15c6b401b5f025d4"
+        },
+        {
+          "file": "22x10x8.0007.ipt",
+          "status": "ok",
+          "doc_id": "10c4517cabce88f0df6235f7"
+        },
+        {
+          "file": "251105 Motor_Drive.0006.ipt",
+          "status": "ok",
+          "doc_id": "23f8bc8bae1548ba88bddf78"
+        },
+        {
+          "file": "30205.0007.ipt",
+          "status": "ok",
+          "doc_id": "36a10f35ebd1e9134303e8d6"
+        },
+        {
+          "file": "3_8-16 x 5_8 Flange Bolt.0006.ipt",
+          "status": "ok",
+          "doc_id": "a5c88e239c0d02a0ea007de8"
+        },
+        {
+          "file": "4991T961.0009.ipt",
+          "status": "ok",
+          "doc_id": "90a93b0e87f4ad8dc78716b5"
+        },
+        {
+          "file": "599044.0001.ipt",
+          "status": "ok",
+          "doc_id": "2ea1d3b242ce35ad600cf01a"
+        },
+        {
+          "file": "90128A277.0008.ipt",
+          "status": "ok",
+          "doc_id": "48cc06cccde08c5c65ae142a"
+        },
+        {
+          "file": "91259A177.0009.ipt",
+          "status": "ok",
+          "doc_id": "8e1b861823480131dffc6c0b"
+        },
+        {
+          "file": "91290A446.0007.ipt",
+          "status": "ok",
+          "doc_id": "07d09999a9185b971b20a8d4"
+        },
+        {
+          "file": "93560A112.0007.ipt",
+          "status": "ok",
+          "doc_id": "b4ed0e922340c126fd4c28bc"
+        },
+        {
+          "file": "94945A213.0005.ipt",
+          "status": "ok",
+          "doc_id": "d81bca91eb4e99809cbea141"
+        },
+        {
+          "file": "96717A416.0009.ipt",
+          "status": "ok",
+          "doc_id": "4e32146f3405e82a36f70061"
+        },
+        {
+          "file": "97260A109.0005.ipt",
+          "status": "ok",
+          "doc_id": "3ba2310118d64c6838521497"
+        },
+        {
+          "file": "BASE VEHICLE TEMPLATE 2.0078.ipt",
+          "status": "ok",
+          "doc_id": "1b14ec6119d3ae6aaae5c81c"
+        },
+        {
+          "file": "BV-222-101.0032.ipt",
+          "status": "ok",
+          "doc_id": "17b5e14568e4569f6c454c26"
+        },
+        {
+          "file": "BV-222-102.0037.ipt",
+          "status": "ok",
+          "doc_id": "28b90018f143269207c81afd"
+        },
+        {
+          "file": "BV-222-103.0030.ipt",
+          "status": "ok",
+          "doc_id": "f60e90e85704279896504880"
+        },
+        {
+          "file": "BV-222-104.0015.ipt",
+          "status": "ok",
+          "doc_id": "e9e4ee2e5f9616b6c62cca5f"
+        },
+        {
+          "file": "BV-222-105.0016.ipt",
+          "status": "ok",
+          "doc_id": "418d187f8003e2f21d6abd00"
+        },
+        {
+          "file": "BV-222-106.0017.ipt",
+          "status": "ok",
+          "doc_id": "5a2807954a170f6a76922663"
+        },
+        {
+          "file": "BV-222-107.0017.ipt",
+          "status": "ok",
+          "doc_id": "47dc721d4f973f19f3261a58"
+        },
+        {
+          "file": "BV-222-108.0015.ipt",
+          "status": "ok",
+          "doc_id": "cd6389c3c355ae4703e1ebd0"
+        },
+        {
+          "file": "BV-222-109.0017.ipt",
+          "status": "ok",
+          "doc_id": "93395f824a13cf4e251b678d"
+        },
+        {
+          "file": "BV-222-110.0014.ipt",
+          "status": "ok",
+          "doc_id": "9ff319bb9324706b3e0305e1"
+        },
+        {
+          "file": "BV-222-111.0014.ipt",
+          "status": "ok",
+          "doc_id": "03db9a809feea1099c8f512e"
+        },
+        {
+          "file": "BV-222-112.0022.ipt",
+          "status": "ok",
+          "doc_id": "075fd0329c9a9b666fa51705"
+        },
+        {
+          "file": "BV-222-116.0024.ipt",
+          "status": "ok",
+          "doc_id": "5a2e56f9f6a57c9963b91433"
+        },
+        {
+          "file": "BV-222-117.0013.ipt",
+          "status": "ok",
+          "doc_id": "c027fa6ff999e8f1b7fa3116"
+        },
+        {
+          "file": "BV-222-118.0015.ipt",
+          "status": "ok",
+          "doc_id": "b778d6663c13c3958b544b90"
+        },
+        {
+          "file": "BV-222-119.0020.ipt",
+          "status": "ok",
+          "doc_id": "643a841616aa62ad2fe22235"
+        },
+        {
+          "file": "BV-222-120.0015.ipt",
+          "status": "ok",
+          "doc_id": "96cd7b465487d572cfadb040"
+        },
+        {
+          "file": "BV-222-121.0011.ipt",
+          "status": "ok",
+          "doc_id": "2199c767ebf6390049696e52"
+        },
+        {
+          "file": "BV-ASM-222-100 copy.0001.iam",
+          "status": "ok",
+          "doc_id": "a9e24aea53bb514059ac7767"
+        },
+        {
+          "file": "BV-ASM-222-100 copy.0002.iam",
+          "status": "ok",
+          "doc_id": "239ea8b4e81fe4f66c74f1c7"
+        },
+        {
+          "file": "BV-ASM-222-100 wip.0001.iam",
+          "status": "ok",
+          "doc_id": "d826f83648f785af7027a711"
+        },
+        {
+          "file": "BV-ASM-222-100-ORIGINAL.0101.iam",
+          "status": "ok",
+          "doc_id": "08d01b3fd2195fda17c800ec"
+        },
+        {
+          "file": "BV-ASM-222-100.0008.iam",
+          "status": "ok",
+          "doc_id": "bad04554f7b69652986bed84"
+        },
+        {
+          "file": "BV-ASM-222-100.0009.iam",
+          "status": "ok",
+          "doc_id": "0d30043aaa8e955a8a269e33"
+        },
+        {
+          "file": "BV-ASM-222-100.0010.iam",
+          "status": "ok",
+          "doc_id": "c4d31f245327d5bdedbeb0e7"
+        },
+        {
+          "file": "BV-ASM-222-100.0011.iam",
+          "status": "ok",
+          "doc_id": "1c35b9d5e2348f72afab9b5b"
+        },
+        {
+          "file": "BV-ASM-222-100.0012.iam",
+          "status": "ok",
+          "doc_id": "f36c32821a3c0c6af998d110"
+        },
+        {
+          "file": "BV-ASM-222-100.0013.iam",
+          "status": "ok",
+          "doc_id": "a13151f0f875374efbc4dc97"
+        },
+        {
+          "file": "BV-ASM-222-100.0014.iam",
+          "status": "ok",
+          "doc_id": "952585d5fadd6b6b1e245228"
+        },
+        {
+          "file": "BV-ASM-222-100.0015.iam",
+          "status": "ok",
+          "doc_id": "b95eb676549664d33e2b068c"
+        },
+        {
+          "file": "BV-ASM-222-100.0092.iam",
+          "status": "ok",
+          "doc_id": "5b9fbab7d2422081e984056c"
+        },
+        {
+          "file": "BV-ASM-222-100.0093.iam",
+          "status": "ok",
+          "doc_id": "51316f70b74d1bc186e8ed25"
+        },
+        {
+          "file": "BV-ASM-222-100.0094.iam",
+          "status": "ok",
+          "doc_id": "2e56c4972082ef26024cd034"
+        },
+        {
+          "file": "BV-ASM-222-100.0095.iam",
+          "status": "ok",
+          "doc_id": "94666c007b1afa8005f82d4f"
+        },
+        {
+          "file": "BV-ASM-222-100.0096.iam",
+          "status": "ok",
+          "doc_id": "ff3aa7c6cf32b6019e4ad0a9"
+        },
+        {
+          "file": "BV-ASM-222-100.0097.iam",
+          "status": "ok",
+          "doc_id": "3bc683311bc3f20492bcaa3d"
+        },
+        {
+          "file": "BV-ASM-222-100.0098.iam",
+          "status": "ok",
+          "doc_id": "c972c3c857d3e8e11a572a08"
+        },
+        {
+          "file": "BV-ASM-222-100.0099.iam",
+          "status": "ok",
+          "doc_id": "87525b5f319545a6801e9960"
+        },
+        {
+          "file": "BV-ASM-222-100.0100.iam",
+          "status": "ok",
+          "doc_id": "6a24ffe521dbd4ee9c4a7cf0"
+        },
+        {
+          "file": "BV-ASM-222-102.0014.iam",
+          "status": "ok",
+          "doc_id": "69834713257cfd29daee2fa7"
+        },
+        {
+          "file": "BV-ASM-222-102.0015.iam",
+          "status": "ok",
+          "doc_id": "584e1f13f0081018cd8742d5"
+        },
+        {
+          "file": "BV-ASM-222-103.0005.iam",
+          "status": "ok",
+          "doc_id": "89d1790ad6021ee1e8ed32ab"
+        },
+        {
+          "file": "BV-ASM-222-104.0013.iam",
+          "status": "ok",
+          "doc_id": "0c42553cc2662c33370b60e0"
+        },
+        {
+          "file": "BV-ASM-222-105.0012.iam",
+          "status": "ok",
+          "doc_id": "fa93da25192e8780dfb8e9ea"
+        },
+        {
+          "file": "BV-ASM-222-106.0007.iam",
+          "status": "ok",
+          "doc_id": "4b60ba61e02e116a99bf4dbf"
+        },
+        {
+          "file": "BV-ASM-222-106.0008.iam",
+          "status": "ok",
+          "doc_id": "ef6c4c614f188f80339dffd0"
+        },
+        {
+          "file": "M12-1.50.0009.ipt",
+          "status": "ok",
+          "doc_id": "4cee39b21a8104fa1633bdb4"
+        },
+        {
+          "file": "WS809-4.0001.ipt",
+          "status": "ok",
+          "doc_id": "a191230dd67701de4cb995fa"
+        },
+        {
+          "file": "WS809-4.ipt",
+          "status": "ok",
+          "doc_id": "265e1562def6306dfa0cca55"
+        }
+      ]
+    },
+    "CLEANING BRUSH CAGE & ROLLER": {
+      "id": "bfb4c0de8b0848fb3378a90b",
+      "files": [
+        {
+          "file": "007-B42-32D.ipt",
+          "status": "ok",
+          "doc_id": "92f165705a8a34eab5a83657"
+        },
+        {
+          "file": "1-4-28-GREASE-FITTING_HG 1350-010 01.ipt",
+          "status": "ok",
+          "doc_id": "2a9af5c93854f1abc83378db"
+        },
+        {
+          "file": "218-2002.iam",
+          "status": "ok",
+          "doc_id": "57ebdfc49d021a73dce4f816"
+        },
+        {
+          "file": "218-2002_Simplify.ipt",
+          "status": "ok",
+          "doc_id": "ad12f473aa7675895905ba4d"
+        },
+        {
+          "file": "4453N16.ipt",
+          "status": "ok",
+          "doc_id": "85caca20ccd84da5a8c9c820"
+        },
+        {
+          "file": "4453N16_Extra-Clearance Bearing.STEP",
+          "status": "ok",
+          "doc_id": "fa7deb618abf0bcb6ae88724"
+        },
+        {
+          "file": "92323A569.ipt",
+          "status": "ok",
+          "doc_id": "b3bd32514597e758446f9190"
+        },
+        {
+          "file": "92323A569.0002.ipt",
+          "status": "ok",
+          "doc_id": "793437448811bdac751f3e55"
+        },
+        {
+          "file": "92323A569.STEP",
+          "status": "ok",
+          "doc_id": "535c1a870d990118adb4c5c6"
+        },
+        {
+          "file": "92979A110.ipt",
+          "status": "ok",
+          "doc_id": "b9e50f05c91813d916936a41"
+        },
+        {
+          "file": "93298A110.ipt",
+          "status": "ok",
+          "doc_id": "6b219011d345e1e22f775287"
+        },
+        {
+          "file": "94831A641.ipt",
+          "status": "ok",
+          "doc_id": "2c9d20a4487cfe6e4afeb649"
+        },
+        {
+          "file": "94831A641.0001.ipt",
+          "status": "ok",
+          "doc_id": "9df6a210ba07c54afee57551"
+        },
+        {
+          "file": "94831A641.STEP",
+          "status": "ok",
+          "doc_id": "60167352bdd777709d730ede"
+        },
+        {
+          "file": "94842A101.ipt",
+          "status": "ok",
+          "doc_id": "f07e34fdd607ea2c4d187c2b"
+        },
+        {
+          "file": "94842A101.0001.ipt",
+          "status": "ok",
+          "doc_id": "d5d17be2a469f1990407a646"
+        },
+        {
+          "file": "94842A101.ipt",
+          "status": "ok",
+          "doc_id": "d6cc27963fad743b765e41e7"
+        },
+        {
+          "file": "94842A101.STEP",
+          "status": "ok",
+          "doc_id": "a449d3a11eb3163f0e224064"
+        },
+        {
+          "file": "94842A104.ipt",
+          "status": "ok",
+          "doc_id": "d68cfd8305161168c148f66d"
+        },
+        {
+          "file": "94842A104.STEP",
+          "status": "ok",
+          "doc_id": "ae910cf9fb594ef8e2034f99"
+        },
+        {
+          "file": "95031A124.ipt",
+          "status": "ok",
+          "doc_id": "a5125be3009de05e084a5b0c"
+        },
+        {
+          "file": "95031A124.0001.ipt",
+          "status": "ok",
+          "doc_id": "5a9bdcd7f4bfca800b8a6603"
+        },
+        {
+          "file": "95031A124.ipt",
+          "status": "ok",
+          "doc_id": "f8bc3489deda58677c962096"
+        },
+        {
+          "file": "95031A124.STEP",
+          "status": "ok",
+          "doc_id": "91898f06779426bb2e3460fa"
+        },
+        {
+          "file": "95031A134.ipt",
+          "status": "ok",
+          "doc_id": "818fcfa0955e6f099391c502"
+        },
+        {
+          "file": "95031A134.0001.ipt",
+          "status": "ok",
+          "doc_id": "bd58feb230e8f05b8bfe66a2"
+        },
+        {
+          "file": "95031A134.STEP",
+          "status": "ok",
+          "doc_id": "0861800b6b92b9837b71d1e6"
+        },
+        {
+          "file": "98778A541.ipt",
+          "status": "ok",
+          "doc_id": "bded2618525d39ebf80eaef2"
+        },
+        {
+          "file": "98778A752.ipt",
+          "status": "ok",
+          "doc_id": "37d4cfa8eb6832e10705be84"
+        },
+        {
+          "file": "Back Plate Screw.ipt",
+          "status": "ok",
+          "doc_id": "978b5dda0c98d7849a064261"
+        },
+        {
+          "file": "BRUSH CAGE REV C.stp",
+          "status": "ok",
+          "doc_id": "6e30b06e962b9c7409a2544b"
+        },
+        {
+          "file": "007-B42-32D.stp",
+          "status": "ok",
+          "doc_id": "e1e3847ea585100a4b2af008"
+        },
+        {
+          "file": "Back Plate Screw.stp",
+          "status": "ok",
+          "doc_id": "617dd580fe624fccdad6ebd2"
+        },
+        {
+          "file": "bushing.stp",
+          "status": "ok",
+          "doc_id": "afe807529e9ebf0bf1f5bf15"
+        },
+        {
+          "file": "Cage Sensor.stp",
+          "status": "ok",
+          "doc_id": "58681705e8e719260e79d38f"
+        },
+        {
+          "file": "center adjust.stp",
+          "status": "ok",
+          "doc_id": "ba57856492f390dca98aaf8e"
+        },
+        {
+          "file": "FL205.stp",
+          "status": "ok",
+          "doc_id": "db1bbce6609e5e0fcf2541ed"
+        },
+        {
+          "file": "Motor Can Screw Lock Washer.stp",
+          "status": "ok",
+          "doc_id": "d5cb76958193146f7cd4d781"
+        },
+        {
+          "file": "Motor Can Screw.stp",
+          "status": "ok",
+          "doc_id": "8a53d60edff6303e30a30f86"
+        },
+        {
+          "file": "motor can.stp",
+          "status": "ok",
+          "doc_id": "0023585f8dec154c6298b027"
+        },
+        {
+          "file": "motor shaft 33mm.stp",
+          "status": "ok",
+          "doc_id": "89da5ec635d4489d8339ac8b"
+        },
+        {
+          "file": "RH motor housing.stp",
+          "status": "ok",
+          "doc_id": "3057f6571f8e1b75c9d32f93"
+        },
+        {
+          "file": "Shaft Coupler.stp",
+          "status": "ok",
+          "doc_id": "a6bdae59b22c94a66fbabdbb"
+        },
+        {
+          "file": "BRUSH CAGE RevC.iam",
+          "status": "ok",
+          "doc_id": "8a280cf095b11c7887bb502f"
+        },
+        {
+          "file": "BRUSH CAGE TEMPLATE RevC.ipt",
+          "status": "ok",
+          "doc_id": "cc18712f9b5ac43fccf5f09a"
+        },
+        {
+          "file": "BRUSH CAGE TEMPLATE.ipt",
+          "status": "ok",
+          "doc_id": "a048ada80157e8a211502813"
+        },
+        {
+          "file": "Brush Driver Shaft_RevA.ipt",
+          "status": "ok",
+          "doc_id": "fab9a7f1444b6a8275beeb48"
+        },
+        {
+          "file": "Brush Idler Shaft_RevA.ipt",
+          "status": "ok",
+          "doc_id": "7799b9ded99b9047dff5a6cc"
+        },
+        {
+          "file": "Brush Tube.ipt",
+          "status": "ok",
+          "doc_id": "8e81b4dac787faf2a2a59849"
+        },
+        {
+          "file": "BRUSH TUBE_RevA.iam",
+          "status": "ok",
+          "doc_id": "33e3d7212ed53616197c22ea"
+        },
+        {
+          "file": "bushing.ipt",
+          "status": "ok",
+          "doc_id": "6c0d212ae4b88d5a9d286852"
+        },
+        {
+          "file": "Cage Sensor.ipt",
+          "status": "ok",
+          "doc_id": "482e22d32200a1ef3c99acc3"
+        },
+        {
+          "file": "center adjust.ipt",
+          "status": "ok",
+          "doc_id": "90a8e70adfab7438d15fcfbb"
+        },
+        {
+          "file": "Fan Bracket.ipt",
+          "status": "ok",
+          "doc_id": "d1864856e519f90a2ab391f7"
+        },
+        {
+          "file": "Fan+Bracket.iam",
+          "status": "ok",
+          "doc_id": "34863934e0e838e73c3dd7e1"
+        },
+        {
+          "file": "FL205.ipt",
+          "status": "ok",
+          "doc_id": "bd37a9e0465b082c6bd7c49a"
+        },
+        {
+          "file": "Motor Can Screw Lock Washer.ipt",
+          "status": "ok",
+          "doc_id": "ab36e33fc3b313acd54d7ec0"
+        },
+        {
+          "file": "Motor Can Screw.ipt",
+          "status": "ok",
+          "doc_id": "e1e57d0e0a5dca7d46087ec9"
+        },
+        {
+          "file": "motor can.ipt",
+          "status": "ok",
+          "doc_id": "aaa1f4aa961593fddf2a453c"
+        },
+        {
+          "file": "motor shaft 33mm.ipt",
+          "status": "ok",
+          "doc_id": "081b266f37fa461fdb6d67c9"
+        },
+        {
+          "file": "4453N16.0002.ipt",
+          "status": "ok",
+          "doc_id": "6f9fe1e78b2d4e275ccacf6d"
+        },
+        {
+          "file": "94842A101.0002.ipt",
+          "status": "ok",
+          "doc_id": "cadbe14584faececa8b431d3"
+        },
+        {
+          "file": "95031A124.0002.ipt",
+          "status": "ok",
+          "doc_id": "b863901a64460bc33f60d2b1"
+        },
+        {
+          "file": "98778A752.0032.ipt",
+          "status": "ok",
+          "doc_id": "b17d5fa09e8c0967117c0b13"
+        },
+        {
+          "file": "BRUSH CAGE RevC.0076.iam",
+          "status": "ok",
+          "doc_id": "a2eeec1135019d2e11d7dc2f"
+        },
+        {
+          "file": "BRUSH CAGE RevC.0077.iam",
+          "status": "ok",
+          "doc_id": "78d917374e9e538851bb54b6"
+        },
+        {
+          "file": "BRUSH CAGE TEMPLATE RevC.0069.ipt",
+          "status": "ok",
+          "doc_id": "bf4bf256c6f3851b1c14158f"
+        },
+        {
+          "file": "Brush Driver Shaft_RevA.0011.ipt",
+          "status": "ok",
+          "doc_id": "e1cbf953de4d6c00dda73560"
+        },
+        {
+          "file": "Brush Idler Shaft_RevA.0009.ipt",
+          "status": "ok",
+          "doc_id": "b1e159019fc5d22f54eb0c5d"
+        },
+        {
+          "file": "Brush Tube.0015.ipt",
+          "status": "ok",
+          "doc_id": "cf92d7a1730928668ceb36ab"
+        },
+        {
+          "file": "BRUSH TUBE_RevA.0011.iam",
+          "status": "ok",
+          "doc_id": "5456eaa15c296e9071ccaeb3"
+        },
+        {
+          "file": "Fan Bracket.0016.ipt",
+          "status": "ok",
+          "doc_id": "5df451a6834df734e384dee2"
+        },
+        {
+          "file": "Fan+Bracket.0006.iam",
+          "status": "ok",
+          "doc_id": "690c926e17dbb5b33ca0eb6b"
+        },
+        {
+          "file": "OM_CAGE-011.0019.ipt",
+          "status": "ok",
+          "doc_id": "61a257a9d6a687f15838df56"
+        },
+        {
+          "file": "OM_CAGE-012.0014.ipt",
+          "status": "ok",
+          "doc_id": "2366f31b95b709a31a18c2a7"
+        },
+        {
+          "file": "OM_CAGE-013.0014.ipt",
+          "status": "ok",
+          "doc_id": "f5f7abd2a26c9aa40a462294"
+        },
+        {
+          "file": "OM_CAGE-016.0009.ipt",
+          "status": "ok",
+          "doc_id": "5b840d8e6d0cfdd8223bd3b5"
+        },
+        {
+          "file": "OM_CAGE-019.0023.ipt",
+          "status": "ok",
+          "doc_id": "87e1735a8dcee71741480e6a"
+        },
+        {
+          "file": "OM_CAGE-021.0010.ipt",
+          "status": "ok",
+          "doc_id": "535e2a09cbb185287c1572ee"
+        },
+        {
+          "file": "OM_CAGE-023.0007.ipt",
+          "status": "ok",
+          "doc_id": "d68e87ce8578bff8212a4c4f"
+        },
+        {
+          "file": "OM_CAGE-024.0006.ipt",
+          "status": "ok",
+          "doc_id": "1e26ff741a1a7fe181bafe49"
+        },
+        {
+          "file": "OM_CAGE-011.ipt",
+          "status": "ok",
+          "doc_id": "e6503751abb5428d62aba04e"
+        },
+        {
+          "file": "OM_CAGE-012.ipt",
+          "status": "ok",
+          "doc_id": "949374de48294291681986ac"
+        },
+        {
+          "file": "OM_CAGE-013.ipt",
+          "status": "ok",
+          "doc_id": "667a0b63e1a688abab67d3fc"
+        },
+        {
+          "file": "OM_CAGE-014.ipt",
+          "status": "ok",
+          "doc_id": "2c37bdbf2941b4afa5ed988c"
+        },
+        {
+          "file": "OM_CAGE-015.ipt",
+          "status": "ok",
+          "doc_id": "6fad81291a944a7a38c37f6d"
+        },
+        {
+          "file": "OM_CAGE-016.ipt",
+          "status": "ok",
+          "doc_id": "19d894d32d37e0b9f425a774"
+        },
+        {
+          "file": "OM_CAGE-017.ipt",
+          "status": "ok",
+          "doc_id": "1b36b4e0cc64c6afb0c22887"
+        },
+        {
+          "file": "OM_CAGE-018.ipt",
+          "status": "ok",
+          "doc_id": "519f3766a683587f8ac632b8"
+        },
+        {
+          "file": "OM_CAGE-019.ipt",
+          "status": "ok",
+          "doc_id": "1788993110941ae991322ee9"
+        },
+        {
+          "file": "OM_CAGE-020.ipt",
+          "status": "ok",
+          "doc_id": "eda2b5fa1e4a0f387b02eadb"
+        },
+        {
+          "file": "OM_CAGE-021.ipt",
+          "status": "ok",
+          "doc_id": "36bd1b852cbec66a73640dc3"
+        },
+        {
+          "file": "OM_CAGE-022.ipt",
+          "status": "ok",
+          "doc_id": "274e66eb565856dde523ccd8"
+        },
+        {
+          "file": "OM_CAGE-023.ipt",
+          "status": "ok",
+          "doc_id": "e4378e010b9038cff0cb0b48"
+        },
+        {
+          "file": "OM_CAGE-024.ipt",
+          "status": "ok",
+          "doc_id": "4d4f99a6e8a793737e619480"
+        },
+        {
+          "file": "OM_CAGE_BT-001.stp",
+          "status": "ok",
+          "doc_id": "8e1d8ac1267b193f2e997265"
+        },
+        {
+          "file": "OM_CAGE_BT-002.stp",
+          "status": "ok",
+          "doc_id": "b7e34019cfa0920c85286fa2"
+        },
+        {
+          "file": "OM_CAGE_BT-003.stp",
+          "status": "ok",
+          "doc_id": "60f15dd8d2145f9a7e4f12c1"
+        },
+        {
+          "file": "OM_CAGE_BT_WM-100.stp",
+          "status": "ok",
+          "doc_id": "e57c6e5f166480c56255d493"
+        },
+        {
+          "file": "RH motor housing.ipt",
+          "status": "ok",
+          "doc_id": "9c07363cea6c21c05ed073a8"
+        },
+        {
+          "file": "SENSOR BRACKET RevC.iam",
+          "status": "ok",
+          "doc_id": "a12456ad20186f5687095634"
+        },
+        {
+          "file": "Shaft Coupler.ipt",
+          "status": "ok",
+          "doc_id": "b3afce3b6508409228bdce29"
+        },
+        {
+          "file": "UC205-16.ipt",
+          "status": "ok",
+          "doc_id": "c6cf39a3b249a75669deb519"
+        },
+        {
+          "file": "ucfl205-16.iam",
+          "status": "ok",
+          "doc_id": "cda184c1b8f20834983ca7c3"
+        },
+        {
+          "file": "UCFL205-16_Simplify.ipt",
+          "status": "ok",
+          "doc_id": "e3fc7a81075de3aa798769f1"
+        }
+      ]
+    },
+    "CLEANING ROBOT TOWER PROJECT": {
+      "id": "2bdfbb503430e38a3fb1fb9a",
+      "files": [
+        {
+          "file": "1_4-20 UNC x 0.625.ipt",
+          "status": "ok",
+          "doc_id": "7c72f527335c1d518f8137b7"
+        },
+        {
+          "file": "5968K75.ipt",
+          "status": "ok",
+          "doc_id": "13db35957490da14858fe21d"
+        },
+        {
+          "file": "90096A324.ipt",
+          "status": "ok",
+          "doc_id": "17280f14ab114df45fe2873a"
+        },
+        {
+          "file": "90096A334.ipt",
+          "status": "ok",
+          "doc_id": "1a87f57e17e455929d14c135"
+        },
+        {
+          "file": "92979A114.ipt",
+          "status": "ok",
+          "doc_id": "6f8317879056fa9523bc0fe4"
+        },
+        {
+          "file": "92979A186.ipt",
+          "status": "ok",
+          "doc_id": "1de9d140e3ee012d3f9d4517"
+        },
+        {
+          "file": "92979A340.ipt",
+          "status": "ok",
+          "doc_id": "8d229f58795f10a067f665d3"
+        },
+        {
+          "file": "92979A467.ipt",
+          "status": "ok",
+          "doc_id": "7e6ce40b68660b664e415c31"
+        },
+        {
+          "file": "92979A467.STEP",
+          "status": "ok",
+          "doc_id": "3cdc1216c18d1906446811cc"
+        },
+        {
+          "file": "94842A103.ipt",
+          "status": "ok",
+          "doc_id": "2edfad1fc31e2685b391c51b"
+        },
+        {
+          "file": "95615A120.ipt",
+          "status": "ok",
+          "doc_id": "78fc8ab383dde4c4673399de"
+        },
+        {
+          "file": "Tower Assm - BACKUP.iam",
+          "status": "ok",
+          "doc_id": "a9546126f0c7d1bd27269e36"
+        },
+        {
+          "file": "Arm Mount Plate.ipt",
+          "status": "ok",
+          "doc_id": "42ea1f95b8fd549c53607133"
+        },
+        {
+          "file": "CLEANING_ROBOT_Template.ipt",
+          "status": "ok",
+          "doc_id": "bf8d7ece3e98a73a6e0aa0f0"
+        },
+        {
+          "file": "Corner Post 2.ipt",
+          "status": "ok",
+          "doc_id": "0955c3082bfe350415e491c4"
+        },
+        {
+          "file": "Corner Post 3.ipt",
+          "status": "ok",
+          "doc_id": "0db33dc0c9c1427ccb540158"
+        },
+        {
+          "file": "Corner Post 4.ipt",
+          "status": "ok",
+          "doc_id": "4edb86846bbb57e89dcdfa6d"
+        },
+        {
+          "file": "Corner Post.ipt",
+          "status": "ok",
+          "doc_id": "391078ef9c1c4a3a4246a4ca"
+        },
+        {
+          "file": "CRA-1002.ipt",
+          "status": "ok",
+          "doc_id": "639ef35a6f8968533dcf9954"
+        },
+        {
+          "file": "CRA-1003.ipt",
+          "status": "ok",
+          "doc_id": "d057f8cd5882cab28e4be761"
+        },
+        {
+          "file": "CRA-1004.ipt",
+          "status": "ok",
+          "doc_id": "0fd3a68bb6cc42383c96a437"
+        },
+        {
+          "file": "CRA-1005.ipt",
+          "status": "ok",
+          "doc_id": "522d312762cb7398d49ed056"
+        },
+        {
+          "file": "CRA-1006.ipt",
+          "status": "ok",
+          "doc_id": "6f4249a7ff0d393f2a29100a"
+        },
+        {
+          "file": "CRA-1007.ipt",
+          "status": "ok",
+          "doc_id": "571f55205fc37b501d4b3ae2"
+        },
+        {
+          "file": "CRA-1008.ipt",
+          "status": "ok",
+          "doc_id": "393727108605a2ce41ec7be5"
+        },
+        {
+          "file": "CRA-1009.ipt",
+          "status": "ok",
+          "doc_id": "f171e3fbf7549a32400a2ca1"
+        },
+        {
+          "file": "CRA-1010.ipt",
+          "status": "ok",
+          "doc_id": "bd751779772bc5e0c54e0821"
+        },
+        {
+          "file": "CRA-1011.ipt",
+          "status": "ok",
+          "doc_id": "aa31d07330197520a12ac3be"
+        },
+        {
+          "file": "CRA-1012.ipt",
+          "status": "ok",
+          "doc_id": "18354059e43cce105ebcbf4d"
+        },
+        {
+          "file": "CRA-1013.ipt",
+          "status": "ok",
+          "doc_id": "801fb1261bf9a181b37374f1"
+        },
+        {
+          "file": "CRA-1014.ipt",
+          "status": "ok",
+          "doc_id": "3881484c1a21f8e304cef470"
+        },
+        {
+          "file": "CRA-1015.ipt",
+          "status": "ok",
+          "doc_id": "cd3532eda799277fc6b75329"
+        },
+        {
+          "file": "CRA-1016.ipt",
+          "status": "ok",
+          "doc_id": "bcf08dc5fda94005f906adfc"
+        },
+        {
+          "file": "CRA-1017.ipt",
+          "status": "ok",
+          "doc_id": "e4bdecd50b0df39a169ab066"
+        },
+        {
+          "file": "CRA-1018.ipt",
+          "status": "ok",
+          "doc_id": "ebb4847eb0ff1cdb6c6ac33c"
+        },
+        {
+          "file": "CRA-1019.ipt",
+          "status": "ok",
+          "doc_id": "5071de26d5eefb93fc8b2158"
+        },
+        {
+          "file": "CRA-1020.ipt",
+          "status": "ok",
+          "doc_id": "18632cf8016d4099fd380557"
+        },
+        {
+          "file": "CRA-1021.ipt",
+          "status": "ok",
+          "doc_id": "6de70edc133fc74e04f12d4b"
+        },
+        {
+          "file": "CRA-1022.ipt",
+          "status": "ok",
+          "doc_id": "713aab83d3899443694ba375"
+        },
+        {
+          "file": "CRA-1023.ipt",
+          "status": "ok",
+          "doc_id": "02eada9586fc5a30513bb2a7"
+        },
+        {
+          "file": "CRA-1024.ipt",
+          "status": "ok",
+          "doc_id": "42fb3d394df127fff3233a09"
+        },
+        {
+          "file": "CRA-1025.ipt",
+          "status": "ok",
+          "doc_id": "2cab83b0e58a8fea67266037"
+        },
+        {
+          "file": "CRA-1026.ipt",
+          "status": "ok",
+          "doc_id": "60d99c1abf2cb67303dab93c"
+        },
+        {
+          "file": "CRA-1027.ipt",
+          "status": "ok",
+          "doc_id": "9281249664998f924302a43e"
+        },
+        {
+          "file": "CRA-1028.ipt",
+          "status": "ok",
+          "doc_id": "efc5966d47dbb5e8d82adaff"
+        },
+        {
+          "file": "CRA-1029.ipt",
+          "status": "ok",
+          "doc_id": "ca9c9a78484b10d23b95f1b4"
+        },
+        {
+          "file": "92979A340.stp",
+          "status": "ok",
+          "doc_id": "81d58568848771aa73050b25"
+        },
+        {
+          "file": "92979A467.stp",
+          "status": "ok",
+          "doc_id": "fa7073521ee6be236296a999"
+        },
+        {
+          "file": "CRA-1002.stp",
+          "status": "ok",
+          "doc_id": "83903d441a37fb6b05a7b0a5"
+        },
+        {
+          "file": "CRA-1003.stp",
+          "status": "ok",
+          "doc_id": "b927be50e37d8941bda49af9"
+        },
+        {
+          "file": "CRA-1004.stp",
+          "status": "ok",
+          "doc_id": "6a65558a903dea6f9a6a02a7"
+        },
+        {
+          "file": "CRA-1005.stp",
+          "status": "ok",
+          "doc_id": "8daaaa06870276187af22fff"
+        },
+        {
+          "file": "CRA-1006.stp",
+          "status": "ok",
+          "doc_id": "c9738cf5c9249f53de7d9101"
+        },
+        {
+          "file": "CRA-1007.stp",
+          "status": "ok",
+          "doc_id": "6014a6f643acc353a8628a04"
+        },
+        {
+          "file": "CRA-1008.stp",
+          "status": "ok",
+          "doc_id": "cd77fbc5dcf47984fa322f92"
+        },
+        {
+          "file": "CRA-1009.stp",
+          "status": "ok",
+          "doc_id": "8b41aee42c7e805de126f841"
+        },
+        {
+          "file": "CRA-1010.stp",
+          "status": "ok",
+          "doc_id": "3ff2579041d9339ab953c6c0"
+        },
+        {
+          "file": "CRA-1011.stp",
+          "status": "ok",
+          "doc_id": "dedec7fd0e425301f1f399d0"
+        },
+        {
+          "file": "CRA-1012.stp",
+          "status": "ok",
+          "doc_id": "27f1f737ae6d792e86bc074d"
+        },
+        {
+          "file": "CRA-1013.stp",
+          "status": "ok",
+          "doc_id": "c036bbb4c4526556ceaaa603"
+        },
+        {
+          "file": "CRA-1014.stp",
+          "status": "ok",
+          "doc_id": "98fb83e1ecc2091206354afb"
+        },
+        {
+          "file": "CRA-1020.stp",
+          "status": "ok",
+          "doc_id": "3874425de118298ce7aab1e4"
+        },
+        {
+          "file": "CRA-1021.stp",
+          "status": "ok",
+          "doc_id": "8925249a7e938ea7f74c6798"
+        },
+        {
+          "file": "CRA-1022.stp",
+          "status": "ok",
+          "doc_id": "293e76861ce982400ac3d40d"
+        },
+        {
+          "file": "CRA-1023.stp",
+          "status": "ok",
+          "doc_id": "323a72d0fb5505cd708d58dc"
+        },
+        {
+          "file": "CRA-1026.stp",
+          "status": "ok",
+          "doc_id": "c50fcccf4b95ca13158c3210"
+        },
+        {
+          "file": "CRA-ASM-1001.iam",
+          "status": "ok",
+          "doc_id": "b54d9b081533bfb89eae937e"
+        },
+        {
+          "file": "CRA-ASM-1001.stp",
+          "status": "ok",
+          "doc_id": "88a7403e6f77ef0ff184b29d"
+        },
+        {
+          "file": "CRA-1020.stp",
+          "status": "ok",
+          "doc_id": "5f59c76a67508dd84e1802f6"
+        },
+        {
+          "file": "CRA-ASM-1002.iam",
+          "status": "ok",
+          "doc_id": "8e7a828d0d4098c193527078"
+        },
+        {
+          "file": "CRA-ASM-1002.stp",
+          "status": "ok",
+          "doc_id": "12a6134aeffac568c031913e"
+        },
+        {
+          "file": "CRA-ASM-1003.iam",
+          "status": "ok",
+          "doc_id": "4361b79245caef2046e8084d"
+        },
+        {
+          "file": "ELB-1002.ipt",
+          "status": "ok",
+          "doc_id": "3d17a47e85b4ad7e9ff90dd7"
+        },
+        {
+          "file": "ELB-1003.ipt",
+          "status": "ok",
+          "doc_id": "bcf322b6a7197668217c5516"
+        },
+        {
+          "file": "ELB-1004.ipt",
+          "status": "ok",
+          "doc_id": "9d41c00d58c1cebc94fdbf63"
+        },
+        {
+          "file": "ELB-1005.ipt",
+          "status": "ok",
+          "doc_id": "17b526a1d8fae3c125a539cf"
+        },
+        {
+          "file": "ELB-1006.ipt",
+          "status": "ok",
+          "doc_id": "3e0fdd526173846b5335144b"
+        },
+        {
+          "file": "ELB-1007.ipt",
+          "status": "ok",
+          "doc_id": "eaf12c60f966cf1b4b3af4b3"
+        },
+        {
+          "file": "ELB-1008.ipt",
+          "status": "ok",
+          "doc_id": "35234b993241c217c4b6f650"
+        },
+        {
+          "file": "ELB-ASM-1000.iam",
+          "status": "ok",
+          "doc_id": "d450aa27daa8ff87d432c190"
+        },
+        {
+          "file": "ELB-ASM-1001.iam",
+          "status": "ok",
+          "doc_id": "358158b922d32ba36cf2a9ec"
+        },
+        {
+          "file": "ELB-ASM-1003.iam",
+          "status": "ok",
+          "doc_id": "2296c141bdba4d75da34347f"
+        },
+        {
+          "file": "ELECTRICAL BOX TEMPLATE.ipt",
+          "status": "ok",
+          "doc_id": "4e7a592d9291005d21f93db7"
+        },
+        {
+          "file": "Half cross support.ipt",
+          "status": "ok",
+          "doc_id": "7dc8208b9d935a440b82cb70"
+        },
+        {
+          "file": "IFI - I0.375 - 16(1).ipt",
+          "status": "ok",
+          "doc_id": "1998592b6bc34307f6c35915"
+        },
+        {
+          "file": "IFI 111 - 3_8-16 UNC x 2.25.ipt",
+          "status": "ok",
+          "doc_id": "0b1d9f5c06543a8182e32e66"
+        },
+        {
+          "file": "IFI - I0.375 - 16(1).ipt",
+          "status": "ok",
+          "doc_id": "8d31bc74a50351a7f5bcbb89"
+        },
+        {
+          "file": "IFI 111 - 3_8-16 UNC x 2.25.ipt",
+          "status": "ok",
+          "doc_id": "4a63faf5f848cd31d1385a95"
+        },
+        {
+          "file": "5968K75.0003.ipt",
+          "status": "ok",
+          "doc_id": "d11f8f23d7d604575f814d25"
+        },
+        {
+          "file": "90096A324.0003.ipt",
+          "status": "ok",
+          "doc_id": "8db56efb54fb5bb16d3d7014"
+        },
+        {
+          "file": "90096A334.0004.ipt",
+          "status": "ok",
+          "doc_id": "5ae98a96cea6449228771437"
+        },
+        {
+          "file": "92979A114.0004.ipt",
+          "status": "ok",
+          "doc_id": "1ccf7adfa4ddc16cd912c93c"
+        },
+        {
+          "file": "92979A186.0002.ipt",
+          "status": "ok",
+          "doc_id": "2a111b1edbbd818c61b1d00c"
+        },
+        {
+          "file": "92979A340.0011.ipt",
+          "status": "ok",
+          "doc_id": "065705c9950f3421e067a775"
+        },
+        {
+          "file": "92979A467.0013.ipt",
+          "status": "ok",
+          "doc_id": "c30c1d9b897d98e9913db955"
+        },
+        {
+          "file": "94842A103.0001.ipt",
+          "status": "ok",
+          "doc_id": "d0cedfdff580ae0708d6388b"
+        },
+        {
+          "file": "95615A120.0004.ipt",
+          "status": "ok",
+          "doc_id": "69ccad9d66d086ad59144989"
+        },
+        {
+          "file": "Arm Mount Plate.0016.ipt",
+          "status": "ok",
+          "doc_id": "f62f157876276edb5bfc61c0"
+        },
+        {
+          "file": "CLEANING_ROBOT_Template.0114.ipt",
+          "status": "ok",
+          "doc_id": "2f845834d49492115770407e"
+        },
+        {
+          "file": "Corner Post 2.0010.ipt",
+          "status": "ok",
+          "doc_id": "a09bf856524915ebec666e0f"
+        },
+        {
+          "file": "Corner Post 3.0012.ipt",
+          "status": "ok",
+          "doc_id": "91f52286074b99566c3f04cf"
+        },
+        {
+          "file": "Corner Post 4.0013.ipt",
+          "status": "ok",
+          "doc_id": "822de04510a0262bad54cb62"
+        },
+        {
+          "file": "Corner Post.0019.ipt",
+          "status": "ok",
+          "doc_id": "7d204d55fdb168dcbbdc33ad"
+        },
+        {
+          "file": "CRA-1002.0008.ipt",
+          "status": "ok",
+          "doc_id": "3546ec7491f441b48cb87262"
+        },
+        {
+          "file": "CRA-1003.0008.ipt",
+          "status": "ok",
+          "doc_id": "c8e7ef54fc366ae209aef3ff"
+        },
+        {
+          "file": "CRA-1004.0010.ipt",
+          "status": "ok",
+          "doc_id": "7a89f52ecdf76f5b304a56cd"
+        },
+        {
+          "file": "CRA-1005.0008.ipt",
+          "status": "ok",
+          "doc_id": "b72c511a9f009575f77dd2e9"
+        },
+        {
+          "file": "CRA-1006.0007.ipt",
+          "status": "ok",
+          "doc_id": "ac29769d8a76e8b7f81a8d67"
+        },
+        {
+          "file": "CRA-1007.0006.ipt",
+          "status": "ok",
+          "doc_id": "ca931c03b95b09d962c605ca"
+        },
+        {
+          "file": "CRA-1008.0007.ipt",
+          "status": "ok",
+          "doc_id": "d1d3ae71fb6464cb35911bea"
+        },
+        {
+          "file": "CRA-1009.0006.ipt",
+          "status": "ok",
+          "doc_id": "cefa6ff3a69aecc6ff361cb0"
+        },
+        {
+          "file": "CRA-1010.0007.ipt",
+          "status": "ok",
+          "doc_id": "59476c7584d2a3bc15ec5a63"
+        },
+        {
+          "file": "CRA-1011.0008.ipt",
+          "status": "ok",
+          "doc_id": "14adda59f7492c2144b5921d"
+        },
+        {
+          "file": "CRA-1012.0011.ipt",
+          "status": "ok",
+          "doc_id": "afeae4da5a7c138c56a7d9f8"
+        },
+        {
+          "file": "CRA-1013.0007.ipt",
+          "status": "ok",
+          "doc_id": "cb581615148cc1cb6b97b04f"
+        },
+        {
+          "file": "CRA-1014.0006.ipt",
+          "status": "ok",
+          "doc_id": "9e39fb32ecd6cb77a3af0fec"
+        },
+        {
+          "file": "CRA-1015.0004.ipt",
+          "status": "ok",
+          "doc_id": "5f6e2581e965d0d187144207"
+        },
+        {
+          "file": "CRA-1016.0008.ipt",
+          "status": "ok",
+          "doc_id": "afa45a815c6c4f1cb2b5581e"
+        },
+        {
+          "file": "CRA-1017.0005.ipt",
+          "status": "ok",
+          "doc_id": "d40d8c0efacf7df223f6ba89"
+        },
+        {
+          "file": "CRA-1018.0005.ipt",
+          "status": "ok",
+          "doc_id": "f350210560c3f99a9c1d2693"
+        },
+        {
+          "file": "CRA-1019.0005.ipt",
+          "status": "ok",
+          "doc_id": "97dfdc62b3d139184aae3b35"
+        },
+        {
+          "file": "CRA-1020.0016.ipt",
+          "status": "ok",
+          "doc_id": "383bee8536ff0bf8e0f9de1e"
+        },
+        {
+          "file": "CRA-1021.0009.ipt",
+          "status": "ok",
+          "doc_id": "31eb5722d3c9d5fe0ea98ef8"
+        },
+        {
+          "file": "CRA-1022.0011.ipt",
+          "status": "ok",
+          "doc_id": "28bb87ff0e2c2c7738f215ad"
+        },
+        {
+          "file": "CRA-1023.0009.ipt",
+          "status": "ok",
+          "doc_id": "6edc23aaea05a44b813df3f4"
+        },
+        {
+          "file": "CRA-1024.0008.ipt",
+          "status": "ok",
+          "doc_id": "4a73129835eb1584e983afe8"
+        },
+        {
+          "file": "CRA-1025.0007.ipt",
+          "status": "ok",
+          "doc_id": "fc6a42f7dc30f52bc693f0b1"
+        },
+        {
+          "file": "CRA-1026.0010.ipt",
+          "status": "ok",
+          "doc_id": "b2afdad6aebafae0128ed9f8"
+        },
+        {
+          "file": "CRA-1027.0010.ipt",
+          "status": "ok",
+          "doc_id": "b4d145eabcfe831ca8797d68"
+        },
+        {
+          "file": "CRA-1028.0007.ipt",
+          "status": "ok",
+          "doc_id": "4344a72b8acf60fe60bb65b7"
+        },
+        {
+          "file": "CRA-1029.0008.ipt",
+          "status": "ok",
+          "doc_id": "05360e073a29e7ab53f6e26b"
+        },
+        {
+          "file": "CRA-ASM-1001.0020.iam",
+          "status": "ok",
+          "doc_id": "b6049bf47232be50b320c07e"
+        },
+        {
+          "file": "CRA-ASM-1002.0021.iam",
+          "status": "ok",
+          "doc_id": "f30ea07d3bdd277dd2d07b1a"
+        },
+        {
+          "file": "CRA-ASM-1002.0022.iam",
+          "status": "ok",
+          "doc_id": "65b3f65a3d62dac4f3357337"
+        },
+        {
+          "file": "CRA-ASM-1002.0023.iam",
+          "status": "ok",
+          "doc_id": "e9ff58b972d2b74b7042f971"
+        },
+        {
+          "file": "CRA-ASM-1002.0024.iam",
+          "status": "ok",
+          "doc_id": "74707efe5e6471738ff9e25d"
+        },
+        {
+          "file": "CRA-ASM-1002.0025.iam",
+          "status": "ok",
+          "doc_id": "c8386a80fa847c1c370da3a9"
+        },
+        {
+          "file": "CRA-ASM-1002.0026.iam",
+          "status": "ok",
+          "doc_id": "78724e82e369cf7d805128b7"
+        },
+        {
+          "file": "CRA-ASM-1002.0027.iam",
+          "status": "ok",
+          "doc_id": "96fce230f930e5768aa27be6"
+        },
+        {
+          "file": "CRA-ASM-1002.0028.iam",
+          "status": "ok",
+          "doc_id": "b4b21de6e504d530c083cc05"
+        },
+        {
+          "file": "CRA-ASM-1002.0029.iam",
+          "status": "ok",
+          "doc_id": "180630101c669ee59049b93f"
+        },
+        {
+          "file": "CRA-ASM-1002.0030.iam",
+          "status": "ok",
+          "doc_id": "fd5be322aa905fbf69ff9ceb"
+        },
+        {
+          "file": "CRA-ASM-1003.0007.iam",
+          "status": "ok",
+          "doc_id": "6560d4e298843353988375d8"
+        },
+        {
+          "file": "CRA-ASM-1003.0008.iam",
+          "status": "ok",
+          "doc_id": "5c40043c7841393f234dd652"
+        },
+        {
+          "file": "ELB-1002.0010.ipt",
+          "status": "ok",
+          "doc_id": "3902540b8a08088da696fe44"
+        },
+        {
+          "file": "ELB-1003.0006.ipt",
+          "status": "ok",
+          "doc_id": "ce078c12291d251eafd6ab8b"
+        },
+        {
+          "file": "ELB-1004.0008.ipt",
+          "status": "ok",
+          "doc_id": "549f07837fc9c84a1b387649"
+        },
+        {
+          "file": "ELB-1005.0007.ipt",
+          "status": "ok",
+          "doc_id": "25d29fd28f69279ea803db33"
+        },
+        {
+          "file": "ELB-1006.0007.ipt",
+          "status": "ok",
+          "doc_id": "fb82eac0599498144f0920a0"
+        },
+        {
+          "file": "ELB-1007.0006.ipt",
+          "status": "ok",
+          "doc_id": "b9f34b2be952ab7391273740"
+        },
+        {
+          "file": "ELB-1008.0007.ipt",
+          "status": "ok",
+          "doc_id": "bad29400634d5d194b0fe391"
+        },
+        {
+          "file": "ELB-ASM-1000.0021.iam",
+          "status": "ok",
+          "doc_id": "cf3bb57d3cde95c6c0e528ea"
+        },
+        {
+          "file": "ELB-ASM-1000.0022.iam",
+          "status": "ok",
+          "doc_id": "acb6f0c0ea202fded2b35232"
+        },
+        {
+          "file": "ELB-ASM-1000.0023.iam",
+          "status": "ok",
+          "doc_id": "ac7c821a60c0b673f14d29d8"
+        },
+        {
+          "file": "ELB-ASM-1000.0024.iam",
+          "status": "ok",
+          "doc_id": "3577f8b7f4b158af2f230306"
+        },
+        {
+          "file": "ELB-ASM-1000.0025.iam",
+          "status": "ok",
+          "doc_id": "25b3280735ad1079068d564e"
+        },
+        {
+          "file": "ELB-ASM-1000.0026.iam",
+          "status": "ok",
+          "doc_id": "c2fe4cfddfab7a506d8ee581"
+        },
+        {
+          "file": "ELB-ASM-1000.0027.iam",
+          "status": "ok",
+          "doc_id": "9364da1f6dda8ae785638a64"
+        },
+        {
+          "file": "ELB-ASM-1000.0028.iam",
+          "status": "ok",
+          "doc_id": "b96ae5fa4855f499734da701"
+        },
+        {
+          "file": "ELB-ASM-1001.0010.iam",
+          "status": "ok",
+          "doc_id": "cb58bd1ac373fd8c8d5a26d5"
+        },
+        {
+          "file": "ELB-ASM-1002.0001.iam",
+          "status": "ok",
+          "doc_id": "f575c74473fcffd9795ac716"
+        },
+        {
+          "file": "ELB-ASM-1003.0001.iam",
+          "status": "ok",
+          "doc_id": "cf9e9329d8c5d0fc1e931d7c"
+        },
+        {
+          "file": "ELB-ASM-1003.0002.iam",
+          "status": "ok",
+          "doc_id": "3c26aa240f5ef4c171ba12c6"
+        },
+        {
+          "file": "ELB-ASM-1003.0003.iam",
+          "status": "ok",
+          "doc_id": "90182a4aa26e2a1b98ffb05f"
+        },
+        {
+          "file": "ELECTRICAL BOX TEMPLATE.0031.ipt",
+          "status": "ok",
+          "doc_id": "b619d86944b87383d84c4773"
+        },
+        {
+          "file": "Half cross support.0008.ipt",
+          "status": "ok",
+          "doc_id": "229bbed59816591f6331861b"
+        },
+        {
+          "file": "IFI - I0.375 - 16(1).0001.ipt",
+          "status": "ok",
+          "doc_id": "a29128f979f5e873f9a8c806"
+        },
+        {
+          "file": "IFI 111 - 3_8-16 UNC x 2.25.0001.ipt",
+          "status": "ok",
+          "doc_id": "1ae3a8ca82d30ee0c56ee690"
+        },
+        {
+          "file": "TA-ASM-1002.0002.iam",
+          "status": "ok",
+          "doc_id": "33c38ad5b39c3323e3f7d536"
+        },
+        {
+          "file": "TC-1001.0011.iam",
+          "status": "ok",
+          "doc_id": "bcd11c04387ff8fd07a57625"
+        },
+        {
+          "file": "TC-10012.0013.iam",
+          "status": "ok",
+          "doc_id": "c111cef6c3637a2fbe289ae4"
+        },
+        {
+          "file": "TC-1002.0008.ipt",
+          "status": "ok",
+          "doc_id": "13cd370ed45bb4441ecbc0c3"
+        },
+        {
+          "file": "TC-1003.0007.ipt",
+          "status": "ok",
+          "doc_id": "293ccb48170de71363eb6b32"
+        },
+        {
+          "file": "TC-1005.0005.ipt",
+          "status": "ok",
+          "doc_id": "e9c516e6a61b8a85370c3d30"
+        },
+        {
+          "file": "TC-1006.0006.ipt",
+          "status": "ok",
+          "doc_id": "d655fd7dca654a211564c01a"
+        },
+        {
+          "file": "Tower Actuator Mount Tab.0023.ipt",
+          "status": "ok",
+          "doc_id": "2ec982eb0d50bc9eb02c1735"
+        },
+        {
+          "file": "Tower Assm.0081.iam",
+          "status": "ok",
+          "doc_id": "567e8ce941a21156f27c9b7b"
+        },
+        {
+          "file": "Tower Base.0030.ipt",
+          "status": "ok",
+          "doc_id": "2646703030e5696d4274a49c"
+        },
+        {
+          "file": "Tower Cross Support.0015.ipt",
+          "status": "ok",
+          "doc_id": "d71a141dc5123006932d1021"
+        },
+        {
+          "file": "Tower Top Plate.0017.ipt",
+          "status": "ok",
+          "doc_id": "99bb195b592241eb65fadb55"
+        },
+        {
+          "file": "Tube Clamp Template.0019.ipt",
+          "status": "ok",
+          "doc_id": "9cdb2b5ca86780933d3ee4b6"
+        },
+        {
+          "file": "TA-ASM-1002.iam",
+          "status": "ok",
+          "doc_id": "c5e8ee34dece2563d3a7bec7"
+        },
+        {
+          "file": "TC-1001.iam",
+          "status": "ok",
+          "doc_id": "6c960e4c8b1c0118eeec0b62"
+        },
+        {
+          "file": "IFI - I0.375 - 16, HFNI(1).stp",
+          "status": "ok",
+          "doc_id": "d6fdedeec4a89e620aa32d29"
+        },
+        {
+          "file": "TC-1003.stp",
+          "status": "ok",
+          "doc_id": "46d8fb36ef8d6188147eb301"
+        },
+        {
+          "file": "TC-10012.iam",
+          "status": "ok",
+          "doc_id": "d8dc90525f393fdf19f934ef"
+        },
+        {
+          "file": "TC-1002.ipt",
+          "status": "ok",
+          "doc_id": "94b80fa68a50f42569255598"
+        },
+        {
+          "file": "TC-1003.ipt",
+          "status": "ok",
+          "doc_id": "89d71de43cc4662c9a164ce6"
+        },
+        {
+          "file": "TC-1004.ipt",
+          "status": "ok",
+          "doc_id": "70415b5ad145e3bd8866cbf3"
+        },
+        {
+          "file": "TC-1005.ipt",
+          "status": "ok",
+          "doc_id": "3cb572db12f79dde153a14ab"
+        },
+        {
+          "file": "TC-1006.ipt",
+          "status": "ok",
+          "doc_id": "eb4ffaf2b2541b15cbd02040"
+        },
+        {
+          "file": "Tower Actuator Mount Tab.ipt",
+          "status": "ok",
+          "doc_id": "b61385bb128b0ccc6c1eb8c2"
+        },
+        {
+          "file": "5968K75.stp",
+          "status": "ok",
+          "doc_id": "f33fded9103a4b51dbd7ead0"
+        },
+        {
+          "file": "90096A324.stp",
+          "status": "ok",
+          "doc_id": "4c3b6ec1b32bdc952f19c25e"
+        },
+        {
+          "file": "90096A334.stp",
+          "status": "ok",
+          "doc_id": "2d309ebf0e1d7bbe69954dd0"
+        },
+        {
+          "file": "92979A114.stp",
+          "status": "ok",
+          "doc_id": "ae7a313564b104261936adc6"
+        },
+        {
+          "file": "92979A340.stp",
+          "status": "ok",
+          "doc_id": "ea13f8a48661800c9f32a86f"
+        },
+        {
+          "file": "92979A467.stp",
+          "status": "ok",
+          "doc_id": "bdd600a40aa3a4c043360eba"
+        },
+        {
+          "file": "95615A120.stp",
+          "status": "ok",
+          "doc_id": "3f7ba6a1f9382415696a12d6"
+        },
+        {
+          "file": "ELB-1007.stp",
+          "status": "ok",
+          "doc_id": "bd6aaef6cab69255422b9760"
+        },
+        {
+          "file": "ELB-ASM-1000.stp",
+          "status": "ok",
+          "doc_id": "e0ce5cb49513db907a20d122"
+        },
+        {
+          "file": "ELB-ASM-1001.stp",
+          "status": "ok",
+          "doc_id": "8b9df204cb0f4b4e83136f25"
+        },
+        {
+          "file": "ELB-ASM-1003.stp",
+          "status": "ok",
+          "doc_id": "e8c5045c55e65be87f58cf11"
+        },
+        {
+          "file": "TA-1006.stp",
+          "status": "ok",
+          "doc_id": "2db4f9cee5e5531bf40adc85"
+        },
+        {
+          "file": "TA-1007.stp",
+          "status": "ok",
+          "doc_id": "cfff6ebd96147e39ac080dfe"
+        },
+        {
+          "file": "TA-1008.stp",
+          "status": "ok",
+          "doc_id": "5d898775a3be3366f962fd66"
+        },
+        {
+          "file": "TA-1009.stp",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "TA-ASM-1002.stp",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "Tower Assm.stp",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "Tower Assm.iam",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "Tower Base.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "Tower Cross Support.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "Tower Top Plate.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "Tube Clamp Template.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "TC-10012.iam",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "TC-1002.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "TC-1003.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "TC-1005.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "TC-1006.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "Tube Clamp Template.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "TC-1002.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "TC-1003.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "TC-1005.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        },
+        {
+          "file": "Tube Clamp Template.ipt",
+          "status": "error",
+          "doc_id": null,
+          "error": "402 {\n  \"message\" : \"API limit exceeded\",\n  \"moreInfoUrl\" : \"\",\n  \"status\" : 402,\n  \"code\" : 402\n}"
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "summary": {
+    "total": 476,
+    "succeeded": 458,
+    "failed": 18
+  }
+}
