@@ -1,0 +1,21 @@
+# Environment variables / secrets
+.env
+
+# Large CAD files (exceed GitHub's 100MB limit)
+*.stp
+*.step
+*.igs
+*.iges
+*.stl
+*.sat
+*.x_t
+*.x_b
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
