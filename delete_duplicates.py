@@ -104,6 +104,14 @@ def list_all_documents():
         time.sleep(0.4)
     return docs
 
+
+def has_versions(doc_id):
+    """Return True if this document has any named versions."""
+    r = _call(_get, f'/api/v6/documents/{doc_id}/versions')
+    if r.status_code != 200:
+        return False
+    return len(r.json()) > 0
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     print("=" * 60)
@@ -142,11 +150,28 @@ def main():
         print("✅ No duplicates found — account is clean.")
         return
 
+    # Check which duplicates have versions — those need extra care
+    print("Checking version history for duplicates...", flush=True)
+    versioned_names = set()
+    for name, copies in duplicates.items():
+        for doc in copies:
+            if has_versions(doc['id']):
+                versioned_names.add(name)
+                break
+        time.sleep(0.3)
+
     # Summary
     to_delete = sum(len(v) - 1 for v in duplicates.values())
-    print(f"Found {len(duplicates)} document names with duplicates ({to_delete} to delete):\n")
+    print(f"\nFound {len(duplicates)} document names with duplicates ({to_delete} to delete):\n")
     for name, copies in sorted(duplicates.items()):
-        print(f"  '{name}'  →  {len(copies)} copies, keeping newest, deleting {len(copies)-1}")
+        versioned_flag = " ⚠ HAS VERSIONS" if name in versioned_names else ""
+        print(f"  '{name}'  →  {len(copies)} copies, keeping newest, deleting {len(copies)-1}{versioned_flag}")
+
+    if versioned_names:
+        print()
+        print(f"  ⚠  {len(versioned_names)} document(s) above have named versions.")
+        print(f"     Deleting older copies will permanently remove their version history.")
+        print(f"     Consider reviewing these in Onshape before proceeding.")
 
     print()
     confirm = input(f"Delete {to_delete} duplicate documents? Type YES to continue: ").strip()
@@ -158,12 +183,19 @@ def main():
     print()
     deleted = 0
     failed  = 0
+    skipped = 0
     for name, copies in sorted(duplicates.items()):
-        keep = copies[0]  # newest
+        keep   = copies[0]  # newest
         to_del = copies[1:]  # older ones
         print(f"  '{name}'  keeping id={keep['id'][:8]}...", flush=True)
         for doc in to_del:
             did = doc['id']
+            # Warn and skip if this specific copy has versions
+            if has_versions(did):
+                print(f"    ⚠ Skipping id={did[:8]}... (has versions — delete manually in Onshape)")
+                skipped += 1
+                time.sleep(0.3)
+                continue
             print(f"    Deleting id={did[:8]}...", end='', flush=True)
             r = _call(_delete, f'/api/v6/documents/{did}')
             if r.status_code in (200, 204):
@@ -176,6 +208,8 @@ def main():
 
     print(f"\n{'=' * 60}")
     print(f"  ✅ Deleted {deleted} duplicates")
+    if skipped:
+        print(f"  ⚠  {skipped} skipped (had versions — review manually in Onshape)")
     if failed:
         print(f"  ❌ {failed} deletions failed")
     print("=" * 60)

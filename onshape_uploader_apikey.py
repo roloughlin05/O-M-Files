@@ -124,6 +124,47 @@ def api_post_json(access_key, secret_key, path, body):
     return requests.post(f"{BASE_URL}{path}", headers=h, json=body, timeout=30)
 
 
+def wait_for_translation(access_key, secret_key, doc_id, workspace_id, timeout=300):
+    """
+    Poll the document's element list until a translated (non-blob) element
+    appears, indicating Onshape has finished processing the uploaded file.
+    Returns True on success, False on timeout or error.
+    """
+    print(f"   Waiting for Onshape to translate file", end='', flush=True)
+    start = time.time()
+    while time.time() - start < timeout:
+        try:
+            r = api_get(access_key, secret_key,
+                        f'/api/v6/documents/{doc_id}/workspaces/{workspace_id}/elements')
+            if r.status_code == 200:
+                elements = r.json()
+                if any(e.get('type', '').upper() != 'BLOB' for e in elements):
+                    print(" ✓", flush=True)
+                    return True
+        except Exception:
+            pass
+        print('.', end='', flush=True)
+        time.sleep(10)
+    print(" ⏱ timed out — proceeding anyway", flush=True)
+    return False
+
+
+def create_version(access_key, secret_key, doc_id, workspace_id, version_name, description=""):
+    """
+    Create a named, immutable version from the current workspace state.
+    This is Onshape's equivalent of tagging a release.
+    """
+    r = api_post_json(access_key, secret_key,
+                      f'/api/v6/documents/{doc_id}/workspaces/{workspace_id}/versions',
+                      {"name": version_name, "description": description})
+    if r.status_code in (200, 201):
+        vid = r.json().get('id', '')[:8]
+        print(f"   ✓ Version '{version_name}' created  id={vid}...")
+    else:
+        print(f"   ⚠ Version creation failed: {r.status_code} {r.text[:120]}")
+    return r
+
+
 def api_post_file(access_key, secret_key, path, filepath: Path):
     """Upload a file using multipart form-data with a pre-signed boundary."""
     boundary = uuid.uuid4().hex
@@ -263,6 +304,17 @@ def main():
     # Pick destination folder
     folder_id = pick_folder(access_key, secret_key)
 
+    # Version name
+    print()
+    print("  ── Version settings ────────────────────────────────────────────")
+    print("  After each upload Onshape will create a named version (snapshot).")
+    print("  This marks the imported file as a stable release in Onshape's")
+    print("  version history, making it easy to branch or roll back later.")
+    print()
+    default_version = "v1.0 - Initial Import"
+    version_name = input(f"  Version name [{default_version}]: ").strip() or default_version
+    version_desc = input(f"  Version description (optional): ").strip()
+
     # Confirm document names and upload mode per file
     print()
     print("  ── Upload settings ─────────────────────────────────────────────")
@@ -313,7 +365,13 @@ def main():
         r = api_post_file(access_key, secret_key, blob_path, task['file_path'])
 
         if r.status_code in (200, 201):
-            print(f"  ✅ Upload successful!")
+            print(f"  ✅ Upload accepted — waiting for translation...")
+            translated = wait_for_translation(access_key, secret_key, doc_id, ws_id)
+            if translated:
+                create_version(access_key, secret_key, doc_id, ws_id, version_name, version_desc)
+            else:
+                print(f"  ⚠ Translation may still be in progress.")
+                print(f"    You can create the version manually in Onshape once it finishes.")
         else:
             print(f"  ❌ Upload failed: HTTP {r.status_code}")
             print(f"     {r.text[:400]}")

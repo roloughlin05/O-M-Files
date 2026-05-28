@@ -221,6 +221,41 @@ def upload_blob(did, wid, filepath: Path):
     time.sleep(DELAY)
     return r
 
+
+def wait_for_translation(did, wid, timeout=300):
+    """
+    Poll the document's element list until a translated (non-blob) element
+    appears, indicating Onshape has finished processing the uploaded file.
+    Returns True on success, False on timeout or error.
+    """
+    print(f"     ⏳ Waiting for translation", end='', flush=True)
+    start = time.time()
+    while time.time() - start < timeout:
+        r = _call(_get, f'/api/v6/documents/{did}/workspaces/{wid}/elements')
+        if r.status_code == 200:
+            elements = r.json()
+            if any(e.get('type', '').upper() != 'BLOB' for e in elements):
+                print(" ✓", flush=True)
+                return True
+        print('.', end='', flush=True)
+        time.sleep(10)
+    print(" ⏱ timed out", flush=True)
+    return False
+
+
+def create_version(did, wid, version_name, description=""):
+    """
+    Create a named, immutable version from the current workspace state.
+    This is Onshape's equivalent of tagging a release.
+    """
+    path = f'/api/v6/documents/{did}/workspaces/{wid}/versions'
+    r = _call(_post_json, path, {"name": version_name, "description": description})
+    if r.status_code in (200, 201):
+        print(f"     ✓ Version '{version_name}' created", flush=True)
+    else:
+        print(f"     ⚠ Version creation failed: {r.status_code} {r.text[:100]}", flush=True)
+    return r
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     log = {"folders": {}, "errors": [], "summary": {}}
@@ -248,9 +283,23 @@ def main():
     existing_folder_ids = {f['id'] for f in existing_folders}
     print(f"  Found {len(existing_docs)} existing documents and {len(existing_folders)} existing folders.\n")
 
-    # 3. Import
+    # 3. Version name
     print("─" * 60)
-    print("PHASE 2 — Importing files")
+    print("PHASE 2 — Version settings")
+    print("─" * 60)
+    print("  After each file is uploaded and translated, a named version will be")
+    print("  created automatically. This locks in a stable snapshot in Onshape's")
+    print("  version history so you can branch or roll back at any time.")
+    print()
+    import datetime
+    default_version = f"v1.0 - Import {datetime.date.today()}"
+    version_name = input(f"  Version name [{default_version}]: ").strip() or default_version
+    version_desc = input(f"  Version description (optional): ").strip()
+    print()
+
+    # 4. Import
+    print("─" * 60)
+    print("PHASE 3 — Importing files")
     print("─" * 60)
     subfolders = sorted([d for d in FILES_ROOT.iterdir() if d.is_dir()])
     plan = {}
@@ -295,6 +344,11 @@ def main():
                     done += 1
                     entry["status"] = "ok"
                     entry["doc_id"] = did
+                    # Wait for Onshape to translate, then version
+                    if wait_for_translation(did, wid):
+                        create_version(did, wid, version_name, version_desc)
+                    else:
+                        entry["version"] = "translation_timeout"
                 else:
                     msg = f"upload {r.status_code}: {r.text[:150]}"
                     print(f"\n     ✗ {msg}")
@@ -307,9 +361,9 @@ def main():
 
             log["folders"][sf.name]["files"].append(entry)
 
-    # 4. Delete old duplicates now that upload is complete
+    # 5. Delete old duplicates now that upload is complete
     print(f"\n{'─' * 60}")
-    print("PHASE 3 — Deleting old documents and folders")
+    print("PHASE 4 — Deleting old documents and folders")
     print("─" * 60)
 
     if not existing_doc_ids and not existing_folder_ids:
@@ -352,7 +406,7 @@ def main():
             if del_doc_fail or del_fol_fail:
                 print(f"  ⚠️  {del_doc_fail} doc deletions and {del_fol_fail} folder deletions failed.")
 
-    # 5. Save log & summary
+    # 6. Save log & summary
     log["summary"] = {"total": total, "succeeded": done, "failed": len(errors)}
     LOG_FILE.write_text(json.dumps(log, indent=2))
 

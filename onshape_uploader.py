@@ -81,6 +81,7 @@ def get_session():
         print("  3. Go to the Network tab and reload the page (Ctrl+R)")
         print("  4. Click any request to cad.onshape.com")
         print("  5. Under Request Headers, find the 'cookie:' line")
+
         print("  6. Right-click → Copy Value, then paste it below")
         print()
         cookie_str = input("  Paste cookies here: ").strip()
@@ -230,6 +231,47 @@ def upload_blob(session, doc_id, workspace_id, filepath: Path):
     return r
 
 
+def wait_for_translation(session, doc_id, workspace_id, timeout=300):
+    """
+    Poll the document's element list until a translated (non-blob) element
+    appears, indicating Onshape has finished processing the uploaded file.
+    Returns True on success, False on timeout or error.
+    """
+    print(f"   Waiting for Onshape to translate file", end='', flush=True)
+    path  = f"{BASE_URL}/api/v6/documents/{doc_id}/workspaces/{workspace_id}/elements"
+    start = time.time()
+    while time.time() - start < timeout:
+        try:
+            r = session.get(path, timeout=15)
+            if r.status_code == 200:
+                elements = r.json()
+                # Translation is done when at least one non-BLOB element exists
+                if any(e.get('type', '').upper() != 'BLOB' for e in elements):
+                    print(" ✓", flush=True)
+                    return True
+        except Exception:
+            pass
+        print('.', end='', flush=True)
+        time.sleep(10)
+    print(" ⏱ timed out — proceeding anyway", flush=True)
+    return False
+
+
+def create_version(session, doc_id, workspace_id, version_name, description=""):
+    """
+    Create a named, immutable version from the current workspace state.
+    This is Onshape's equivalent of tagging a release.
+    """
+    path = f"{BASE_URL}/api/v6/documents/{doc_id}/workspaces/{workspace_id}/versions"
+    r = session.post(path, json={"name": version_name, "description": description})
+    if r.status_code in (200, 201):
+        vid = r.json().get('id', '')[:8]
+        print(f"   ✓ Version '{version_name}' created  id={vid}...")
+    else:
+        print(f"   ⚠ Version creation failed: {r.status_code} {r.text[:120]}")
+    return r
+
+
 # ── Main ───────────────────────────────────────────────────────────────────────
 def main():
     print("=" * 60)
@@ -260,6 +302,17 @@ def main():
 
     # Pick destination folder (shared for all files in this batch)
     folder_id = pick_folder(session)
+
+    # Version name
+    print()
+    print("  ── Version settings ────────────────────────────────────────────")
+    print("  After each upload Onshape will create a named version (snapshot).")
+    print("  This marks the imported file as a stable release in Onshape's")
+    print("  version history, making it easy to branch or roll back later.")
+    print()
+    default_version = "v1.0 - Initial Import"
+    version_name = input(f"  Version name [{default_version}]: ").strip() or default_version
+    version_desc = input(f"  Version description (optional): ").strip()
 
     # Confirm document names and upload mode for each file
     print()
@@ -309,7 +362,13 @@ def main():
 
         r = upload_blob(session, doc_id, ws_id, task['file_path'])
         if r.status_code in (200, 201):
-            print(f"  ✅ Upload successful!")
+            print(f"  ✅ Upload accepted — waiting for translation...")
+            translated = wait_for_translation(session, doc_id, ws_id)
+            if translated:
+                create_version(session, doc_id, ws_id, version_name, version_desc)
+            else:
+                print(f"  ⚠ Translation may still be in progress.")
+                print(f"    You can create the version manually in Onshape once it finishes.")
         else:
             print(f"  ❌ Upload failed: HTTP {r.status_code}")
             print(f"     {r.text[:400]}")

@@ -155,6 +155,41 @@ def create_document(session, name, folder_id):
     return data['id'], data['defaultWorkspace']['id']
 
 
+def wait_for_translation(session, doc_id, workspace_id, timeout=300):
+    """Poll until Onshape finishes translating the uploaded file."""
+    print(f"   Waiting for Onshape to translate file", end='', flush=True)
+    start = time.time()
+    while time.time() - start < timeout:
+        try:
+            r = session.get(
+                f"{BASE_URL}/api/v6/documents/{doc_id}/workspaces/{workspace_id}/elements",
+                timeout=15
+            )
+            if r.status_code == 200:
+                if any(e.get('type', '').upper() != 'BLOB' for e in r.json()):
+                    print(" ✓", flush=True)
+                    return True
+        except Exception:
+            pass
+        print('.', end='', flush=True)
+        time.sleep(10)
+    print(" ⏱ timed out — proceeding anyway", flush=True)
+    return False
+
+
+def create_version(session, doc_id, workspace_id, version_name, description=""):
+    """Create a named, immutable version from the current workspace state."""
+    r = session.post(
+        f"{BASE_URL}/api/v6/documents/{doc_id}/workspaces/{workspace_id}/versions",
+        json={"name": version_name, "description": description}
+    )
+    if r.status_code in (200, 201):
+        print(f"   ✓ Version '{version_name}' created")
+    else:
+        print(f"   ⚠ Version creation failed: {r.status_code} {r.text[:120]}")
+    return r
+
+
 def upload_blob(session, doc_id, workspace_id, filepath: Path):
     """Upload a STEP file as a blob element to an Onshape document workspace."""
     boundary = uuid.uuid4().hex
@@ -221,7 +256,10 @@ def main():
 
         r = upload_blob(session, doc_id, ws_id, task['file_path'])
         if r.status_code in (200, 201):
-            print(f"  ✅ Upload successful!")
+            print(f"  ✅ Upload accepted — waiting for translation...")
+            if wait_for_translation(session, doc_id, ws_id):
+                create_version(session, doc_id, ws_id, "v1.0 - Initial Assembly Import",
+                               "Assembly STEP file imported via fix_empty_assemblies.py")
         else:
             print(f"  ❌ Upload failed: HTTP {r.status_code}")
             print(f"     Response: {r.text[:400]}")
